@@ -134,7 +134,7 @@ margin-bottom: 370px;
 
 .carousel.fade .item:first-child {
 	top: auto;
-	opacity: 1; /* show first slide */
+	opacity: 0; /* show first slide */
 	position: relative;
 }
 
