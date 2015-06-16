@@ -22,10 +22,12 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+	/* adjust logo location */
 	.title-logo {
 		margin-top: -15px;
 		margin-left: 5px;
 	}
+	/* menu button style */
 	.navbar-collapse {
 		text-align: right;
 		border: none;
@@ -182,8 +184,43 @@ margin-bottom: 370px;
 		-webkit-transition: all 3s ease;
 	} 
 }
+/* adjust location of designer text on short pictures */
+@media screen and (max-width: 768px) {
+		.item {
+			position: relative;
+		}
 
+		.white, .black {
+			position: absolute;
+			top: 0;
+		}
 
+		h2 {
+			position: absolute;
+			top: 0;
+			width: 100%;
+			margin-top: 147px;
+		}
+}
+
+@media screen and (max-width: 667px) {
+	h2 {
+		margin-top: 34%;
+		font-size: 26px
+	}
+}
+
+@media screen and (max-width: 568px) {
+	h2 {
+		font-size: 24px
+	}
+}
+
+@media screen and (max-width: 480px) {
+	h2 {
+		font-size: 22px
+	}
+}
 
 
 
