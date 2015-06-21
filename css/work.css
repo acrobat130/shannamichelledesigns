@@ -9,7 +9,6 @@ body {
 	background-image: url('../images/img_8208-cropped-opacity.jpg');
 	background-repeat: no-repeat;
 	width: 100%;
-	max-width: 960px;
 	background-position: center top;
 	background-color: black;
 	background-attachment: fixed;
@@ -124,6 +123,7 @@ h2 {
 	background-image: url(../images/work/translucent-background.png);
 	width: 100%;
 	background-repeat: repeat;
+	margin-bottom: 200px;
 }
 .section-title {
 	text-align: center;
@@ -142,12 +142,15 @@ h3 {
 .text-center {
 	text-align: center;
 	padding: 1.6%;
+	position: relative;
 }
 .thumbnail {
 	border: none;
-	max-height: 300px;
+	max-height: 250px;
+	max-width: 250px;
 	margin: auto;
 	padding: 1px;
+	position: relative;
 }
 
 .col-center {
@@ -155,8 +158,99 @@ h3 {
 	float: none;
 	padding-left: 1.7%;
 	padding-right: 1.7%;
+	position: relative;
+	left: 0;
+	top: 0;
+	text-align: right;
+	overflow: hidden;
 }
 
+.thumbnail >img {
+	max-height: 250px;
+}
+
+/* hide color image normally */
+
+.color {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+	border-radius: 4px;
+	padding: 1px;
+	-webkit-transition: opacity .5s ease-in-out;
+ 	-moz-transition: opacity .5s ease-in-out;
+ 	-o-transition: opacity .5s ease-in-out;
+ 	transition: opacity .5s ease-in-out;
+}
+
+.bw {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+ .bw:hover {/* for nicer transition effect */
+ 	opacity: 0;
+ 	-webkit-transition: opacity .5s ease-in-out;
+ 	-moz-transition: opacity .5s ease-in-out;
+ 	-o-transition: opacity .5s ease-in-out;
+ 	transition: opacity .5s ease-in-out;
+}
+
+.color:hover {
+	opacity: 1;
+}
+
+/* make title of projects show up on hover */
+
+h4 {  /* project titles in general */
+	position: absolute;
+	bottom: -20;
+	right: 0;
+	background-color: white;
+	opacity: .7;
+	color: black;
+	text-align: right;
+	margin: auto;
+	padding: 5px;
+	border-radius: 4px;
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 568px) {
+	h4 {
+		font-size: 11px;
+		opacity: 1;
+		padding: 3px;
+	}
+}
+
+.thumbnail >h4 {
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.col-center:hover .thumbnail >h4 {
+	
+	display: block;
+	width: 100%;
+	-webkit-transform: translateY(-28px);
+	-moz-transform: translateY(-28px);
+	-o-transform: translateY(-28px);
+	transform: translateY(-28px);
+}
+
+@media screen and (max-width: 568px) {
+	h4 {
+		font-size: 11px;
+	}
+}
 
 /* adjust location of portfolio text on short pictures */
 @media screen and (max-width: 768px) {
