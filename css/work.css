@@ -208,25 +208,18 @@ h3 {
 
 h4 {  /* project titles in general */
 	position: absolute;
-	bottom: -20;
 	right: 0;
 	background-color: white;
 	opacity: .7;
 	color: black;
 	text-align: right;
-	margin: auto;
+	margin: 1px;
 	padding: 5px;
 	border-radius: 4px;
 	width: 100%;
-	height: 100%;
-}
-
-@media screen and (max-width: 568px) {
-	h4 {
-		font-size: 11px;
-		opacity: 1;
-		padding: 3px;
-	}
+	height: 16%;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .thumbnail >h4 {
@@ -240,20 +233,17 @@ h4 {  /* project titles in general */
 	
 	display: block;
 	width: 100%;
-	-webkit-transform: translateY(-28px);
-	-moz-transform: translateY(-28px);
-	-o-transform: translateY(-28px);
-	transform: translateY(-28px);
-}
-
-@media screen and (max-width: 568px) {
-	h4 {
-		font-size: 11px;
-	}
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	-o-transform: translateY(-100%);
+	transform: translateY(-100%);
 }
 
 /* adjust location of portfolio text on short pictures */
 @media screen and (max-width: 768px) {
+	h4 {
+		height: 18%;
+	}
 		}
 
 
@@ -261,17 +251,38 @@ h4 {  /* project titles in general */
 	h2 {
 		font-size: 26px;
 	}
+	h4 {
+		height: 21%;
+		font-size: 15px;
+	}
 }
 
 @media screen and (max-width: 568px) {
 	h2 {
 		font-size: 24px;
 	}
+	h4 {
+		font-size: 11px;
+		height: 15%;
+		opacity: 1;
+		padding: 3px;
+	}
 }
 
 @media screen and (max-width: 480px) {
 	h2 {
 		font-size: 22px;
+	}
+	h4 {
+		font-size: 11px;
+		height: 19%;
+		bottom: 0;
+	}
+	.col-center:hover .thumbnail >h4 {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
 	}
 }
 
