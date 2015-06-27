@@ -301,7 +301,50 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
-	
+	.about {
+		margin-right: 15px;
+		margin-left: 15px;
+		border-right: 1px solid white;
+		border-radius: 6px;
+	}
+	.basics {
+		margin-right: 15px;
+		margin-left: 15px;
+		border-left: 1px solid white;
+		border-radius: 6px;
+	}
+	.caption-bottom-align {
+		position: relative;
+		left: 0;
+	}
+	.border-correction {
+		border: none;
+	}
+
+	.third-of-three-photos {
+		border: 1px solid white;
+		border-radius: 6px;
+	}
+	.second-of-three-photos {
+		padding-left: 7.5px;
+		margin-bottom: 15px;
+	}
+	.first-of-three-photos {
+		padding-right: 7.5px;
+		margin-bottom: 15px;
+	}
+	.basics-container {
+		padding-right: 0;
+	}
+	.process-photos {
+		margin-bottom: 0;
+	}
+	.before-after {
+		margin-top: 15px;
+	}
+	body {
+		background-attachment: fixed;
+	}
 		}
 
 
@@ -325,10 +368,6 @@ h4 {
 	h2 {
 		font-size: 22px;
 	}
-	.overlapping-text {
-		margin-bottom: 120px;
-	}
-
 }
 
 
