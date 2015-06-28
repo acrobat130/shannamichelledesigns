@@ -288,13 +288,13 @@ h4 {
 }
 
 /* adjust location of hanging bench text on short pictures */
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 991px) and (max-width: 1200px) {
 	.translucent {
 		width: 980px;
 	}
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 	.caption-bottom-align {
 		left: 50%;
 	}
