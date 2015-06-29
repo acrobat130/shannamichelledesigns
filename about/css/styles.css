@@ -290,6 +290,15 @@ h4 {
 	margin-bottom: 0;
 }
 
+.accomplishments >h4 {
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.accomplishments >p {
+	color: hsla(0, 10%, 80%, 1);
+}
+
 .skills {
 	text-align: center;
 }
