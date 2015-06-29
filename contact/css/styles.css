@@ -125,8 +125,10 @@ h6 {
 	padding: 5px;
 	color: white;
 	margin: 3px;
-	background-color: hsla(0, 100%, 0%, .7);
-	border-radius: 10px;
+}
+
+.contacts {
+	
 }
 
 h2 {
@@ -140,7 +142,7 @@ h2 {
 
 /* thumbnail styling */
 .translucent {
-	background-image: url(../../../images/work/translucent-background.png);
+	background-image: url(../../images/work/translucent-background.png);
 	max-width: 980px;
 	background-repeat: repeat;
 	padding-bottom: 200px;
@@ -363,15 +365,15 @@ h4 {
 	body {
 		background-attachment: fixed;
 	}
-		}
+	.contacts {
+		text-align: center;
+	}
+}
 
 
 @media screen and (max-width: 667px) {
 	h2 {
 		font-size: 26px;
-	}
-	h2 {
-		margin-bottom: 260px;
 	}
 }
 
