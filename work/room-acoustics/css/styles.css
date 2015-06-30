@@ -1,0 +1,378 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	color: #9d9d9d;
+	font-weight: 300;
+	background-image: url('../images/theatre-cordoba-argentina-opacity.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position: center top;
+	background-color: black;
+	background-attachment: fixed;
+	margin: auto;
+}
+
+.title-logo {
+	max-height: 60px;
+	margin: 5px;
+}
+
+/* navbar styling */
+
+h3 {
+	margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+	/* adjust logo location */
+	.title-logo {
+		margin-top: -15px;
+		margin-left: 5px;
+	}
+	/* menu button style */
+	.navbar-collapse {
+		text-align: right;
+		border: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		margin-top: -30px;
+	}
+}
+
+.navbar-fixed-top {
+	background: transparent;
+	border: transparent;
+}
+
+.navbar-inverse .navbar-collapse .active >a {
+	background: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: rgb(158,0,39);
+}
+
+.navbar-inverse .navbar-collapse .active >a:hover {
+	background: transparent;
+	color: rgb(158,0,39);
+}
+
+.icon {
+	margin: 5px;
+}
+
+/* footer styling */
+
+.footer {
+	text-align: center;
+	margin-bottom: 30px;
+	padding-top: 200px;
+	color: #9d9d9d;
+	position: absolute;
+	bottom: -90px;
+	width: 100%;
+	height: 60px;
+	clear: both;
+
+}
+
+h6 {
+	font-size: 11px;
+}
+
+.links {
+	list-style-type: none;
+	padding: 0;
+	-webkit-padding-start: 0;
+	-moz-padding-start: 0;
+	padding-start: 0;
+}
+
+.links >li {
+	display: inline;
+	text-align: center;
+	margin: 3px;
+	
+}
+
+.name {
+	margin-bottom: -3px;
+}
+
+/* "designer" styling */
+
+.page-title {
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	margin-top: 127px;
+	margin-bottom: 250px;
+	display: inline-block;
+	padding: 15px 25px 15px 25px;
+	background-color: hsla(0, 100%, 0%, 1);
+	border-radius: 6px;
+	border: 1px solid white;
+}
+
+/* thumbnail styling */
+.translucent {
+	background-image: url(../../../images/work/translucent-background.png);
+	max-width: 980px;
+	background-repeat: repeat;
+	padding-bottom: 200px;
+	text-shadow: 1px 1px 2px black;
+	color: white;
+}
+.section-title {
+	text-align: center;
+}
+
+/* intro text styling */
+.awards {
+	text-align: right;
+}
+
+.awards >a {
+	color: #9d9d9d;
+	font-style: italic;
+}
+
+.basics-container {
+	padding-left: 0;
+}
+
+.basics {
+	margin-top: 70px;
+	margin-bottom: 400px;
+	padding: 15px 25px 15px 0;
+	background-color: hsla(0, 100%, 0%, .5);
+	border-radius: 0 6px 6px 0;
+	border: 1px solid white;
+	border-left: none;
+}
+
+.basics >h4 {
+	padding-left: 15px;	
+	text-align: center;
+}
+
+.basics >p {
+	padding-left: 15px;
+}
+
+.center-titles {
+	text-align: center;
+}
+
+.design-challenge {
+	margin-top: 400px;
+	margin-bottom: 400px;
+	text-align: center;
+	display: inline-block;
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 15px 25px 15px 25px;
+	background-color: hsla(0, 100%, 0%, .5);
+	border-radius: 6px;
+	border: 1px solid white;
+}
+
+.about {
+	margin-top: 50px;
+	margin-bottom: 300px;
+	color: white;
+	display: inline-block;
+	padding: 15px 0px 15px 25px;
+	background-color: hsla(0, 100%, 0%, .5);
+	border-radius: 6px 0 0 6px;
+	border: 1px solid white;
+	border-right: none;
+}
+
+.about >h4 {
+	padding-right: 15px;
+	text-align: center;
+}
+
+.about >p {
+	padding-right: 15px;
+}
+
+.process-photos {
+	width: 100%;
+	border: 1px solid white;
+	border-radius: 6px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.caption-container {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.caption-bottom-align {
+	position: absolute;
+	bottom: 0;
+	left: 33.333333%;
+}
+
+.caption {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.process-product {
+	color: white;
+	display: inline-block;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	padding: 15px 25px 15px 25px;
+	background-color: black;
+	border-radius: 6px;
+	border: 1px solid white;
+}
+
+.
+
+h4 {
+	text-align: center;
+}
+
+/* last image on page changes images on hover */
+.before-after {
+	margin: auto;
+	padding: 1px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+	border-radius: 4px;
+	padding: 1px;
+	-webkit-transition: opacity .5s ease-in-out;
+ 	-moz-transition: opacity .5s ease-in-out;
+ 	-o-transition: opacity .5s ease-in-out;
+ 	transition: opacity .5s ease-in-out;
+}
+
+.before {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+ .before:hover {/* for nicer transition effect */
+ 	opacity: 0;
+ 	-webkit-transition: opacity .5s ease-in-out;
+ 	-moz-transition: opacity .5s ease-in-out;
+ 	-o-transition: opacity .5s ease-in-out;
+ 	transition: opacity .5s ease-in-out;
+}
+
+.after:hover {
+	opacity: 1;
+}
+
+/* adjust location of hanging bench text on short pictures */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.translucent {
+		width: 980px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.caption-bottom-align {
+		left: 50%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.about {
+		margin-right: 15px;
+		margin-left: 15px;
+		border-right: 1px solid white;
+		border-radius: 6px;
+	}
+	.basics {
+		margin-right: 15px;
+		margin-left: 15px;
+		border-left: 1px solid white;
+		border-radius: 6px;
+	}
+	.caption-bottom-align {
+		position: relative;
+		left: 0;
+	}
+	.border-correction {
+		border: none;
+	}
+
+	.third-of-three-photos {
+		border: 1px solid white;
+		border-radius: 6px;
+	}
+	.second-of-three-photos {
+		padding-left: 7.5px;
+		margin-bottom: 15px;
+	}
+	.first-of-three-photos {
+		padding-right: 7.5px;
+		margin-bottom: 15px;
+	}
+	.basics-container {
+		padding-right: 0;
+	}
+	.process-photos {
+		margin-bottom: 0;
+	}
+	.before-after {
+		margin-top: 15px;
+	}
+	body {
+		background-attachment: fixed;
+	}
+		}
+
+
+@media screen and (max-width: 667px) {
+	h2 {
+		font-size: 26px;
+	}
+	h2 {
+		margin-bottom: 260px;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	h2 {
+		font-size: 24px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	h2 {
+		font-size: 22px;
+	}
+}
+
+
+
+
+
+
+
