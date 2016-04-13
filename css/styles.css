@@ -117,6 +117,10 @@ margin-bottom: 370px;
 	color: black;
 }
 
+.carousel-control {
+	top: 50%;
+}
+
 /* carousel styling try 2 - fades instead of slides */
 
 .carousel.fade {
@@ -181,7 +185,7 @@ margin-bottom: 370px;
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
 		-webkit-transition: all 3s ease;
-	} 
+	}
 }
 /* adjust location of designer text on short pictures */
 @media screen and (max-width: 768px) {
