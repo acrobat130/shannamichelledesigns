@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/acrobat130/shannamichelledesigns/issues"
   },
-  "homepage": "https://github.com/acrobat130/shannamichelledesigns#readme"
+  "homepage": "https://github.com/acrobat130/shannamichelledesigns#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
 }
