@@ -1,0 +1,19 @@
+{
+  "name": "shannananigans",
+  "version": "1.0.0",
+  "description": "personal website with portfolio and other skills",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acrobat130/shannamichelledesigns.git"
+  },
+  "author": "Shanna Sullivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acrobat130/shannamichelledesigns/issues"
+  },
+  "homepage": "https://github.com/acrobat130/shannamichelledesigns#readme"
+}
